@@ -16,7 +16,7 @@ author: seongtaekkim
 ~~~ javascript
 var test = "a";
 alert(test);
-dddewgwegwegwage
+가나다라마바사
 function syntaxHighlight(code) {
    var foo = 'Hello World';
    var bar = 100;
