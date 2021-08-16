@@ -11,10 +11,10 @@ before_script:
 script: bundle exec rake site:deploy --quiet
 env:
   global:
-    secure: xxxxxxxxxxxxxxxxxxxx
+    secure: LX4lz7d8HwfdMlp9fpwSsJ4PsMYfP9t7bnN9b6dZjkyMID9T4HRSuLu1cCgYxSgX0Xq/plNeXPLaFUTHa41xVORjMC6vEnltXvibfVDETRXoaRVGXETyrDBYsfZKYdgjwFm94JEX5fz0PgIL2O3jlJ6p56dXXjJcB1Mb
+  +F5NgdRGKw5uauy9XJ/A3cIdGklwQiTvbXtcRw1vHyI3EsBghXAffYjxaKc5/O6TUXsqhMoZJcepl5dwFC5S0EvEJVOnCamgGJ2T2R2c0TaSP3kyv1q6M2uHBjud1Gx6rrxQKuut5TabdXW8MFcGl6emUVgGrwIyq6ze5DxjQ9qpjjo
+  7DmsERsAEyQdCpcX8Rn5tOGHs3pQlHq13B+qc0rO7MhR8ddXIt0O8jHC4J450+l3dKLNhRZW+0p22nGiKCUkexpi9jYuXUG1G70X6YT1trUDzTgOmNn3bWMnALH24FxnWaHqjA0yhrSEEippy6Ybzx537cqkQoSJYavU69RHyS8oaHJ
+  9DWLupS9s0xdlUna6YIbFo0DxlSH1/wNNwXTl6y46Ji645bJuK+r9UyrBFAAWqwrPbAFApqdjQzGszETiFL+qXnMX2UWgYT7JLlEctAVOy+oPRlQ4OcfipiYXctE67S8SujSRN5CP3zAA7EzetbkZLNmAgnazbv34BKO4U83g=
 branches:
   only:
   - master
-before_install:
-- openssl aes-256-cbc -K $encrypted_3c0cc76efe8a_key -iv $encrypted_3c0cc76efe8a_iv
-  -in travis-token.enc -out travis-token -d
