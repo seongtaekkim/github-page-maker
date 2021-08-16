@@ -2,13 +2,13 @@ sudo: false
 language: ruby
 cache: bundler
 rvm:
-- 3.0.2
+- 2.6.0
 install:
 - bundle install
 before_script:
 - git config --global user.email "chxortnl@gmail.com"
 - git config --global user.name "seongtaekkim"
-script: bundle exec rake site:deploy --quiet --trace
+script: bundle exec rake site:deploy --quiet # --trace
 env:
   global:
     secure: "BaLGQb99OTzL88UnOpKmaalk9o7jAU2MkeyCUue0+fmSo/ASSGHwWeOLuWnLNvnlYLf0ON0BlucgPJlHVsKSmyOziYyc1hnzeU/rcNpSaKgc5YoRDdFcv9PYeZU7q884OKEMQ/jkSqf3McWyzgZgpqdnK/lILzQ9CyGq03PXbcBWETGJcL5Nnw2WvUaG86uHdhvfrLUJqE571eRXahbgUzvNFWnypEa9HdhFPIK819sh2xUz+NG845mjfg2l9Jn66o7k9akUwhAc17rDXDI4fLuPsno7xvvf8aWNLZgubNMNtwkI6vbIbVvYX6phXKgfWMx7n4v6lymciUFa9XT8kh+1IbmaMu2T8oWIgr7Q1LRH2aqA6s9rvIhP83XBoC+/Bk1Y8o5ezMLeHjhzUgPNwnC9x+9GulnChgKe04bKi39D2iel+SlVxa1o4C01rNfdVK2s/C3rfox+5U8NpJCDVz4fKGFL0Y9ShGoMn024tTBZywYZQXBeLFbO5mLGigvoAoiPhhQRktM7SEAao5QbyCR4zXkTvP0KIBQ0yQBJbkhoOjohnODQtL2+d9sqP7f99ahluOjKeKrzsRxGdnEUopE+1y4y1nVXXzUjuAlGB3FLJUQ5o/VFvPYqJL2DPpuozy3ntuLblyqrfJ/gCNeRM3bYEGsKG7IYeen5bH6s9LY="
