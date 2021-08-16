@@ -13,5 +13,5 @@ author: seongtaekkim
 {% include python-table-of-contents.html %}
 
 {% gist seongtaekkim/930b19a8b15c9384b3ec66a3c3f57a7a %}
-
+waeawg
 두번째 강의
