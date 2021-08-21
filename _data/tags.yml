@@ -1,5 +1,5 @@
-jekyll :
-  name: jekyll
+spring :
+  name: spring
   description: False
   cover: assets/built/images/background-frontend.jpg
 java :
